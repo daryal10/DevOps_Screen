@@ -1,0 +1,61 @@
+
+1. Answer is: Launch the EC2 instances n a cluster placement group.
+
+
+https://explore.skillbuilder.aws/learn
+
+https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby/
+
+https://aws.amazon.com/certification/benefits/
+
+
+https://www.aws.training/certification/?ch=cta&cta=header&p=1
+
+https://explore.skillbuilder.aws/learn/signin for addtional
+
+where can we find live class for this course?
+A:
+https://aws.amazon.com/certification/certification-prep/
+
+https://docs.aws.amazon.com/lambda/latest/dg/lambda-invocation.html
+
+https://aws.amazon.com/certification/coming-soon/
+
+https://docs.splunk.com/Documentation/AddOns/released/AWS/CloudWatch
+
+
+https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc
+
+
+here:https://explore.skillbuilder.aws/learn/catalog?ctldoc-catalog-0=se-%22AWS%20Certification%20Official%20Practice%20Question%20Sets%22?saa=sec&sec=prep
+
+Q:
+Is secrets manager an extension of IAM roles?
+A:
+Secrets Manager is a stand alone service meant to interact with other AWS services for storing sensitive data privately
+
+Can AWS endorse in any way any of the popular exam prep platforms (A Cloud Guru, Udemy, Whizlabs) for those who cannot afford the Architecting on AWS course?
+A:
+https://explore.skillbuilder.aws/learn/
+
+
+So one can work with the assumption going through the free training thoroughly will suffice for the exam preparation? Please confirm. Thank you
+A:
+Getting hands-on by using AWs FREE tier is also recommended https://docs.aws.amazon.com/dlm/index.html
+
+Q:
+why isnt fargate an option for this question?
+A:
+if working with containers, fargate could be a good fit
+
+how do you know that all microservices will run for less than 15 minutes?
+A:
+that's something we need to account for as architects to ensure that we don't use a Lambda for long-running workloads
+
+Q:
+Lambda is expensive for highworkloads? if yes then we need to consider cost effective solution?
+A:
+it depends on the workload - https://aws.amazon.com/lambda/pricing/
+
+__________________________________________________________END_______________________________________________
+
